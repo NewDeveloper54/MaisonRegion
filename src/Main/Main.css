@@ -3,6 +3,7 @@
   --main-color2:#7FDDF0;
 }
 .sectionOne{
+  margin-top: 300px;
   display: flex;
     flex-direction: column;
     justify-content: center;
