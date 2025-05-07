@@ -629,6 +629,7 @@ a{
 
   .group {
     display: flex;
+    justify-content: center;
     line-height: 28px;
     align-items: center;
     position: relative;
@@ -674,7 +675,7 @@ a{
   
   .search-icon {
     position: absolute;
-    left: 2rem;
+    left: 8rem;
     fill: #bdbecb;
     width: 2rem;
     height: 2rem;
