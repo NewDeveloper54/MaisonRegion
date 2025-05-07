@@ -109,7 +109,7 @@
 
 .logoHold {
     position: relative;
-    top: 500px;
+    top: 200px;
     left: 15%;
     transform: translateX(-50%) scale(3);
   }
@@ -126,7 +126,7 @@
 
   .logoAnimate {
     position: relative;
-    top: 600px;
+    top: 500px;
     left: 15%;
     transform: translateX(-50%) scale(3);
     transition: all 1s ease-in-out;
