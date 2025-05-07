@@ -3,7 +3,6 @@
   --main-color2:#7FDDF0;
 }
 .sectionOne{
-  border: solid 10px red;
   display: flex;
     flex-direction: column;
     justify-content: center;
@@ -178,7 +177,6 @@
 }
 .priority{
   margin-bottom: 100px;
-  border: solid 3px orange;
   display: flex;
   flex-direction: column-reverse;
   justify-content: center;
@@ -206,7 +204,6 @@
 }
 
 .secondary{
-  border: solid 2px green;
   justify-items: center;
   align-items: center;
   display: grid;
@@ -297,8 +294,8 @@ a{
 .item {
     border-radius: 80px;
     color: white;
-    height: 380px;
-    width: 380px;
+    height: 350px;
+    width: 350px;
     background-color: transparent;
     display: flex;
     flex-direction: column;
@@ -316,8 +313,8 @@ a{
   }
   .two,.three,.four{
     color: var(--main-color);
-    height: 300px;
-    width: 300px;
+    height: 250px;
+    width: 250px;
     border-radius: 53px;
     filter: drop-shadow(0 13px 25px rgba(0, 0, 0, 0.3));
 
