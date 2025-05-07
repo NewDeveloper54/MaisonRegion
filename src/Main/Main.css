@@ -109,7 +109,7 @@
 
 .logoHold {
     position: relative;
-    top: 350px;
+    top: 330px;
     left: 15%;
     transform: translateX(-50%) scale(3);
   }
@@ -583,7 +583,7 @@ a{
     top: 52%;
     transform: translate(-50%, -50%);
     width: 700px;
-    height: 250px;
+    height: 300px;
     background-color: #2B347F;
     border-radius: 20px;
     animation: disappear 4s ease-out forwards;
