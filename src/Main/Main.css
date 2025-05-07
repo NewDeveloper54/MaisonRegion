@@ -3,6 +3,7 @@
   --main-color2:#7FDDF0;
 }
 .sectionOne{
+  border: solid 10px red;
   display: flex;
     flex-direction: column;
     justify-content: center;
@@ -176,8 +177,12 @@
   justify-content: space-around;
 }
 .priority{
+  margin-bottom: 100px;
+  border: solid 3px orange;
   display: flex;
+  flex-direction: column-reverse;
   justify-content: center;
+  align-items: center;
   opacity: 0; /* Cache la section au début */
 }
 
@@ -190,9 +195,40 @@
 
 
 
+.two{
+  grid-area: two;
+}
+.three{
+  grid-area: three;
+}
+.four{
+  grid-area: four;
+}
+
 .secondary{
-  display: flex;
-  justify-content: space-evenly;
+  border: solid 2px green;
+  justify-items: center;
+  align-items: center;
+  display: grid;
+  grid-row-gap: 150px;
+   grid-template: repeat(15, 1fr) / repeat(3, 1fr);
+ grid-template-areas: 
+                  "two three four"
+                      "two three four"
+                      "two three four"
+                      "two three four"
+                      "two three four"
+                      "two three four"
+                      "two three four"
+                      "two three four"
+                      "two three four"
+                      "two three four"
+                      "two three four"
+                      "two three four"
+                      "two three four"
+                      "two three four"
+                      "two three four"
+                      ;
 }
 /*
 .elements{
@@ -205,18 +241,13 @@
     "three four ";
     grid-gap: 100px;
 }
+
 .one{
   grid-area: one;
 }
-.two{
-  grid-area: two;
-}
-.three{
-  grid-area: three;
-}
-.four{
-  grid-area: four;
-}
+
+
+
 .five{
   grid-area: five;
 }
@@ -280,8 +311,8 @@ a{
     padding-bottom: 50px;
   }
   .one{
-    height: 450px;
-    width: 450px;
+    height: 100px;
+    width: 1000px;
   }
   .two,.three,.four{
     color: var(--main-color);
@@ -585,4 +616,68 @@ a{
     transition: 1s;
   }
 
+  
+
+
+
+
+
+
+
+
+
+
+  .group {
+    display: flex;
+    line-height: 28px;
+    align-items: center;
+    position: relative;
+    width: 1000px;
+    height: 150px;
+  }
+  
+  .input {
+    font-family: "Montserrat", sans-serif;
+    width: 100%;
+    height: 80px;
+    padding-left: 5rem;
+    padding-top: 9px;
+    box-shadow: 0 0 0 1.5px #2b2c37, 0 0 25px -17px #000;
+    border: 0;
+    border-radius: 50px;
+    background-color: #2B347F;
+    outline: none;
+    color: #bdbecb;
+    transition: all 0.25s cubic-bezier(0.19, 1, 0.22, 1);
+    cursor: text;
+    z-index: 0;
+  }
+  
+  .input::placeholder {
+    color: #bdbecb;
+    font-size: 1.4rem; /* ou ce que tu veux */
+    
+  }
+  
+  .input:hover {
+    box-shadow: 0 0 0 2.5px rgb(51, 95, 172), 0px 0px 25px -15px #000;
+  }
+  
+  .input:active {
+    transform: scale(0.97);
+  }
+  
+  .input:focus {
+    box-shadow: 0 0 0 2.5px rgb(51, 95, 172);
+  }
+  
+  .search-icon {
+    position: absolute;
+    left: 2rem;
+    fill: #bdbecb;
+    width: 2rem;
+    height: 2rem;
+    pointer-events: none;
+    z-index: 1;
+  }
   
