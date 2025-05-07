@@ -476,7 +476,7 @@ a{
 
   }
   
-
+/*
 
   @media (max-width : 1005px) and (min-width: 650px) {
     .elements{
@@ -499,8 +499,8 @@ a{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        opacity: 0; /* Cache la section au début */
-        visibility: hidden; /* Assure qu'elle ne prend pas de place */
+        opacity: 0; 
+        visibility: hidden; 
         transition: opacity 1s ease-in-out, visibility 0s 1s;
     }
     
@@ -546,8 +546,8 @@ a{
         flex-direction: column;
         justify-content: space-evenly;
         align-items: center;
-        opacity: 0; /* Cache la section au début */
-        visibility: hidden; /* Assure qu'elle ne prend pas de place */
+        opacity: 0; 
+        visibility: hidden; 
         transition: opacity 1s ease-in-out, visibility 0s 1s;
     }
 
@@ -564,7 +564,7 @@ a{
 
 
 
-
+*/
 
 
 
@@ -637,11 +637,12 @@ a{
   }
   
   .input {
+    font-size: 1.4rem;
     font-family: "Montserrat", sans-serif;
-    width: 100%;
+    width: 80%;
     height: 80px;
     padding-left: 5rem;
-    padding-top: 9px;
+    padding-top: 2px;
     box-shadow: 0 0 0 1.5px #2b2c37, 0 0 25px -17px #000;
     border: 0;
     border-radius: 50px;

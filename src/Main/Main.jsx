@@ -118,7 +118,9 @@ const Main = () => {
     name="searchbar"
   />
 </div>
-              <h1 style={{color:"white"}}>MAISON REGIONALE DES SPORTS : 13 rue Jean Moulin 54510 TOMBLAINE</h1>
+              <h1 style={{color:"white",
+                 width:"50%"
+              }}>MAISON REGIONALE DES SPORTS : 13 rue Jean Moulin 54510 TOMBLAINE</h1>
 
           </div>
 
