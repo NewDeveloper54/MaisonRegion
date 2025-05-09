@@ -218,6 +218,7 @@ const Main = () => {
               </svg>
 
               <input
+              
                 id="query"
                 value={inputSearch}
                 onChange={(e) => setInputSearch(e.target.value)}
@@ -242,7 +243,7 @@ const Main = () => {
 
 
           {filteredCard.map(item => (
-  <Link className={item.linkClass}to={item.link}>
+  <Link className={item.linkClass} key={item.title}  to={item.link}>
     <div className={item.divClass}>
       <img src={item.imgSrc} alt="nothing yet" />
       <h1 className={item.h1Class}>{item.title}</h1>
