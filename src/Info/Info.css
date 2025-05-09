@@ -1,0 +1,77 @@
+/* Animation pour l'apparition de la carte */
+@keyframes show2 {
+    0% { opacity: 0; transform: translateY(40px); }
+    100% { opacity: 1; transform: translateY(0); }
+  }
+
+  
+  
+  .info-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #2B347F;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .info-card {
+    background: linear-gradient(135deg, #6a11cb, #2575fc); /* Dégradé élégant */
+    color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    width: 100%;
+    max-width: 550px;
+    animation: show2 0.5s ease-out; /* Applique l'animation */
+    transition: transform 0.3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  
+  
+  h2 {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 15px;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+  }
+  
+  strong {
+    font-weight: bold;
+  }
+  
+  .back-button {
+    font-family: 'Arial', sans-serif;
+
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 25px;
+    background-color: #ff7f50;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 30px;
+    text-decoration: none;
+    text-align: center;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .back-button:hover {
+    background-color: #ff6347;
+    transform: scale(1.05); /* Agrandissement léger du bouton au survol */
+  }
+  
+  .back-button:active {
+    transform: scale(0.98); /* Effet de clic */
+  }
+  

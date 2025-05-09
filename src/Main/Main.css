@@ -641,7 +641,7 @@ a{
     height: 80px;
     padding-left: 5rem;
     padding-top: 2px;
-    box-shadow: 0 0 0 1.5px #b7b8c5, 0 0 25px -17px #000;
+    box-shadow: 0 0 0 1.5px #d7d7db, 0 0 25px -17px #000;
     border: 0;
     border-radius: 50px;
     background-color: #2B347F;
@@ -649,7 +649,7 @@ a{
     color: #bdbecb;
     transition: all 0.25s cubic-bezier(0.19, 1, 0.22, 1);
     cursor: text;
-    z-index: 0;
+    z-index: 1;
   }
   
   .input::placeholder {
@@ -677,7 +677,7 @@ a{
     width: 2rem;
     height: 2rem;
     pointer-events: none;
-    z-index: 1;
+    z-index: 2;
   }
   
 
@@ -734,5 +734,5 @@ a{
         width: 100%;
         background: linear-gradient(to top, rgba(0, 0, 0, 1), transparent);
         z-index: 1;
-        pointer-events: none; /* Pour ne pas bloquer les clics */
+        pointer-events: none; 
       }

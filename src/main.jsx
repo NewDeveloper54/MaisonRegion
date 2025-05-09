@@ -13,7 +13,7 @@ const root = createRoot(rootElement); // Créer la racine
 root.render(
   <BrowserRouter>
     <Routes>
-      <Route path="/" element={<App />} /> {/* Page d'accueil */}
+      <Route path="*" element={<App />} /> {/* Page d'accueil */}
       <Route path="/video" element={<Video />} />
 
     </Routes>
