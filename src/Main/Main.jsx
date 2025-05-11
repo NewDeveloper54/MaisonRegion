@@ -19,7 +19,7 @@ import cyclisme from "../assets/cyclisme.jpg";
 import equitation from "../assets/equitation.jpg";
 import epgv from "../assets/epgv.png";
 import escrime2 from "../assets/escrime2.jpg";
-import fnmnsBg from "../assets/fnmnsBg.png";
+import fnmnsBG from "../assets/fnmnsBg.png";
 import golf from "../assets/golf.jpg";
 import gymnastique from "../assets/gymnastique.jpg";
 import handball from "../assets/handball.jpg";
@@ -77,8 +77,8 @@ const Main = () => {
       { title: "EPGV COMITE REGIONAL GRAND EST", link: "/Info/12", imgSrc: epgv, linkClass: `hidden ${show2 ? "show2" : ""}`, divClass: "card", h1Class: "angled-shadow" },
       { title: "EPGV COMITE DEPARTEMENTAL MEURTHE ET MOSELLE", link: "/Info/13", imgSrc: epgv, linkClass: `hidden ${show2 ? "show2" : ""}`, divClass: "card", h1Class: "angled-shadow" },
       { title: "ESCRIME LIGUE REGIONALE GRAND EST", link: "/Info/14", imgSrc: escrime2, linkClass: `hidden ${show2 ? "show2" : ""}`, divClass: "card", h1Class: "angled-shadow" },
-      { title: "FNMNS", link: "/Info/15", imgSrc: fnmnsBg, linkClass: `hidden ${show2 ? "show2" : ""}`, divClass: "card", h1Class: "angled-shadow" },
-      { title: "FNMNS CNF", link: "/Info/16", imgSrc: fnmnsBg, linkClass: `hidden ${show2 ? "show2" : ""}`, divClass: "card", h1Class: "angled-shadow" },
+      { title: "FNMNS", link: "/Info/15", imgSrc: fnmnsBG, linkClass: `hidden ${show2 ? "show2" : ""}`, divClass: "card", h1Class: "angled-shadow" },
+      { title: "FNMNS CNF", link: "/Info/16", imgSrc: fnmnsBG, linkClass: `hidden ${show2 ? "show2" : ""}`, divClass: "card", h1Class: "angled-shadow" },
       { title: "GOLF LIGUE REGIONALE GRAND EST", link: "/Info/17", imgSrc: golf, linkClass: `hidden ${show2 ? "show2" : ""}`, divClass: "card", h1Class: "angled-shadow" },
       { title: "GYMNASTIQUE COMITE REGIONAL GRAND EST", link: "/Info/18", imgSrc: gymnastique, linkClass: `hidden ${show2 ? "show2" : ""}`, divClass: "card", h1Class: "angled-shadow" },
       { title: "HANDBALL LIGUE REGIONALE GRAND EST", link: "/Info/19", imgSrc: handball, linkClass: `hidden ${show2 ? "show2" : ""}`, divClass: "card", h1Class: "angled-shadow" },
