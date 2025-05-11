@@ -19,7 +19,7 @@ import cyclisme from "../assets/cyclisme.jpg";
 import equitation from "../assets/equitation.jpg";
 import epgv from "../assets/epgv.png";
 import escrime2 from "../assets/escrime2.jpg";
-import fnmnsBG from "../assets/fnmnsBg.png";
+import fnmnsBG from "../assets/fnmnsBG.png";
 import golf from "../assets/golf.jpg";
 import gymnastique from "../assets/gymnastique.jpg";
 import handball from "../assets/handball.jpg";
