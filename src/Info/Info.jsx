@@ -12,9 +12,9 @@ const Info = ({ data }) => {
     <div className="info-container">
       <div className="info-card">
         <h2>{info.name}</h2>
-        <p><strong>Téléphone :</strong> {info.telephone}</p>
-        <p><strong>Courriel :</strong> {info.courriel}</p>
-        <p><strong>Bâtiment / Étage :</strong> {info.batimentEtage}</p>
+        <p><strong className="pp">Téléphone </strong> : {info.telephone}</p>
+        <p><strong className="pp">Courriel </strong>: {info.courriel}</p>
+        <p><strong className="pp">Bâtiment / Étage </strong>: {info.batimentEtage}</p>
         <Link to="/" className="back-button">Retour à l'accueil</Link>
       </div>
     </div>
