@@ -1,22 +1,21 @@
 import React from "react";
-import { Link } from "react-router-dom"; // Import de Link pour la navigation
-import "./Info.css"; // Assurez-vous d'avoir ce fichier CSS pour les styles
+import { useParams, Link } from "react-router-dom";
+import "./Info.css";
 
-const Info = () => {
+const Info = ({ data }) => {
+  const { id } = useParams();
+  const info = data[id];
+
+  if (!info) return <p>Données introuvables</p>;
+
   return (
     <div className="info-container">
       <div className="info-card">
-        <h2>Informations</h2>
-        <p><strong>Maison :</strong> REGION GRAND EST</p>
-
-        <p><strong>Téléphone :</strong> 06 12 34 56 78</p>
-        <p><strong>Courriel :</strong> contact@structure.com</p>
-        <p><strong>Bâtiment / Étage :</strong> Bâtiment A, 2ème étage</p>
-        
-        {/* Bouton de retour */}
-        <Link to="/" className="back-button">
-          Retour à l'accueil
-        </Link>
+        <h2>{info.name}</h2>
+        <p><strong>Téléphone :</strong> {info.telephone}</p>
+        <p><strong>Courriel :</strong> {info.courriel}</p>
+        <p><strong>Bâtiment / Étage :</strong> {info.batimentEtage}</p>
+        <Link to="/" className="back-button">Retour à l'accueil</Link>
       </div>
     </div>
   );
