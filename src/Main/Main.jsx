@@ -1,12 +1,13 @@
 import React, { useState, useEffect } from "react";
+import {Link} from "react-router-dom";
+
+
+
+
 import "./Main.css";
 import mp44 from "../assets/mp44.png";
 import GES from "../assets/GES.svg";
-import acces from "../assets/acces2.png";
-import telephoner from "../assets/appel.png";
-import domicile from "../assets/house.png";
 import stockk from "../assets/stock.jpg";
-import {Link} from "react-router-dom";
 import running from "../assets/running.jpg";
 import aviron from "../assets/aviron.jpg";
 import badminton from "../assets/badminton.jpg";
