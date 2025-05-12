@@ -45,6 +45,7 @@ import triathlon from "../assets/triathlon.png";
 import unss from "../assets/unss.png";
 import volleyBall from "../assets/volleyBall.png";
 import ugsel from "../assets/ugselBG.png";
+import asptt from "../assets/asptt.jpeg";
 
 
 const Main = () => {
@@ -63,8 +64,8 @@ const Main = () => {
 
 
     const cardTab = [
-      { title: "REGION GRAND EST", link: "/Info/0", imgSrc: stockk, linkClass: `hidden ${show2 ? "show2" : ""}`, divClass: "card", h1Class: "angled-shadow" },
-      { title: "ASPTT COMITE REGIONAL GRAND EST", link: "/Info/1", imgSrc: stockk, linkClass: `hidden ${show2 ? "show2" : ""}`, divClass: "card", h1Class: "angled-shadow" },
+      { title: "REGION GRAND EST", link: "/Info/0", imgSrc: GES, linkClass: `hidden ${show2 ? "show2" : ""}`, divClass: "card", h1Class: "angled-shadow" },
+      { title: "ASPTT COMITE REGIONAL GRAND EST", link: "/Info/1", imgSrc: asptt, linkClass: `hidden ${show2 ? "show2" : ""}`, divClass: "card", h1Class: "angled-shadow" },
       { title: "ATHLETISME LIGUE REGIONALE GRAND EST", link: "/Info/2", imgSrc: running, linkClass: `hidden ${show2 ? "show2" : ""}`, divClass: "card", h1Class: "angled-shadow" },
       { title: "AVIRON LIGUE REGIONALE GRAND EST", link: "/Info/3", imgSrc: aviron, linkClass: `hidden ${show2 ? "show2" : ""}`, divClass: "card", h1Class: "angled-shadow" },
       { title: "BADMINTON LIGUE REGIONALE GRAND EST", link: "/Info/4", imgSrc: badminton, linkClass: `hidden ${show2 ? "show2" : ""}`, divClass: "card", h1Class: "angled-shadow" },
@@ -249,25 +250,13 @@ const Main = () => {
 ))}
 
 
-{/*
-          <Link className={`hidden ${show2 ? "show2" : ""}`} to="/Info">
-          <div className="card">
-                <img src={stockk} alt="" />
-                <h1 className="angled-shadow">REGION GRAND EST</h1>
-              </div>
-              </Info>    */}
+
 
 
           </div>
         </div>
 
-        {/*
-
-        <a href="https://immobiliere-des-etudes.fr/marketplace"> 
-          <div className="button">
-            <button>Trouver mon bien</button>
-          </div>
-        </a>  */}
+        
       </section>
 
       <div className="outerbox1"></div>
