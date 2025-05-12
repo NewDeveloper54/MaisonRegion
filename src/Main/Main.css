@@ -795,3 +795,23 @@ a{
         transform: scale(0.7);
         top: 15px;
       }
+
+      .un>img{
+        height: 300px;
+        width: 900px;
+        left: -330px;
+        
+        transform: scale(0.3);
+        top: 15px;
+      }
+      .deux>img{
+        height: 800px;
+        width: 900px;
+        left: -325px;
+        
+        transform: scale(0.3);
+        top: -285px;
+      }
+      .deux{
+        background-color: white;
+      }
