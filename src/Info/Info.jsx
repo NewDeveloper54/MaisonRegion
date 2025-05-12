@@ -1,9 +1,10 @@
 import React from "react";
-import { useParams, Link } from "react-router-dom";
+import { useParams, useNavigate } from "react-router-dom";
 import "./Info.css";
 
 const Info = ({ data }) => {
   const { id } = useParams();
+  const navigate = useNavigate();
   const info = data[id];
 
   if (!info) return <p>Données introuvables</p>;
@@ -15,7 +16,10 @@ const Info = ({ data }) => {
         <p><strong className="pp">Téléphone </strong> : {info.telephone}</p>
         <p><strong className="pp">Courriel </strong>: {info.courriel}</p>
         <p><strong className="pp">Bâtiment / Étage </strong>: {info.batimentEtage}</p>
-        <Link to="/" className="back-button">Retour à l'accueil</Link>
+
+        <button onClick={() => navigate(-1)} className="back-button">
+          Retour en arrière
+        </button>
       </div>
     </div>
   );
