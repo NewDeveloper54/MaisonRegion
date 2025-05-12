@@ -736,3 +736,61 @@ a{
         z-index: 1;
         pointer-events: none; 
       }
+
+
+
+
+
+      .quarante-quatre>img{
+        height: 300px;
+        transform: scale(0.8);
+        top: 0px;
+      }
+
+
+      .quarante-trois>img{
+        height: 300px;
+        transform: scale(0.8);
+        top: 0px;
+      }
+
+      .quarante-deux>img{
+        height: 120px;
+        width: 350px;
+        left: -55px;
+        
+        transform: scale(0.6);
+        top: 100px;
+      }
+
+      .quarante-un>img{
+        height: 350px;
+        width: 330px;
+        left: -50px;
+        
+        transform: scale(0.7);
+        top: -15px;
+      }
+
+      .quarante>img{
+        left: -60px;
+      }
+
+      .trante-sept>img{
+        height: 230px;
+        width: 350px;
+        left: -57px;
+        
+        transform: scale(0.7);
+        top: 55px;
+      }
+
+
+      .trante-six>img{
+        height: 300px;
+        width: 350px;
+        left: -57px;
+        
+        transform: scale(0.7);
+        top: 15px;
+      }
