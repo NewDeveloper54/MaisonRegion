@@ -17,7 +17,7 @@ const Info = ({ data }) => {
         <p><strong className="pp">Courriel </strong>: {info.courriel}</p>
         <p><strong className="pp">Bâtiment / Étage </strong>: {info.batimentEtage}</p>
 
-        <button onClick={() => navigate(-1)} className="back-button">
+<button onClick={() => navigate("/")} className="back-button">
           Retour en arrière
         </button>
       </div>

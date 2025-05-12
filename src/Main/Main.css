@@ -421,22 +421,23 @@ a{
     font-weight: bold;
     background-color: transparent;
     color: #ffffff;
-    height: 65px;
+    height: 55px;
     width: 250px;
     border: none;
     padding: 10px 20px;
     border-radius: 10px;
     cursor: pointer;
     font-size: 20px;
-    position: relative; /* Nécessaire pour ::after */
+    position: relative; 
     transition: background-color 0.3s ease, transform 0.3s ease;
-    overflow: visible; /* Assure que l'animation en dessous soit visible */
+    overflow: visible; 
   }
   
+  /*
   button::after {
     content: "";
     position: absolute;
-    bottom: -6px; /* Position juste sous le bouton */
+    bottom: -6px; 
     left: 0;
     height: 2px;
     width: 100%;
@@ -460,7 +461,7 @@ a{
     }
   }
 
-  
+  */
   
   
 
