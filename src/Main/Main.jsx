@@ -43,7 +43,7 @@ import randBG from "../assets/randBG.png";
 import rand from "../assets/logoRandne.png";
 import rugbyBG from "../assets/rugbyBG.png";
 import grottes from "../assets/grottes.png";
-import adapteBG from "../assets/adapteBG.png";
+import adapteBG from "../assets/adaptG.png";
 import automobiles from "../assets/automobiles.png";
 import tous from "../assets/tous.svg";
 import taekwondoBG from "../assets/taekwondoBG.png";

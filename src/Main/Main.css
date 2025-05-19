@@ -758,6 +758,7 @@ a{
         height: 300px;
         transform: scale(0.8);
         top: 0px;
+
       }
 
 
@@ -788,6 +789,9 @@ a{
       }
 
       .quarante>img{
+                  filter: drop-shadow(1px 1px 0px white);
+
+        transform: scale(0.92);
         left: -60px;
       }
 
@@ -823,6 +827,11 @@ a{
         background-color: white;
       }  */
 
+      .vingt-six>img{
+                          filter: drop-shadow(1px 1px 0px white);
+
+      }
+
       .vingt-neuf>img{
         
         transform: scale(0.35);
@@ -850,6 +859,8 @@ a{
        
 
       .vingt-quatre>img{
+                  filter: drop-shadow(1px 1px 0px white);
+
         width: 500px;
         height: 255px;
         left: -125px;
@@ -873,6 +884,8 @@ a{
 
 
       .vingt>img{
+                          filter: drop-shadow(1px 1px 0px white);
+
         height: 500px;
         width: 1400px;
         transform: scale(0.18);
@@ -886,11 +899,11 @@ a{
 /*
        .dix-neuf{
 background-color: #021F5A;      
-}  
+}  */
 
-.dix-huit{
-  background-color: white;
-} */
+.dix-huit>img{
+                  filter: drop-shadow(1px 1px 0px white);
+} 
 
 .dix-sept>img{
 width: 800px;
@@ -916,17 +929,28 @@ transform: scale(0.33);
   top: -250px;
   left: -305px;
 }
+
+.cinq>img{
+                    filter: drop-shadow(1px 1px 0px white);
+
+}
+
+
 /*
 .douze{
   background-color: white;
 }  */
 .douze>img{
+                    filter: drop-shadow(0px 1px 0px white);
+
 transform: scale(0.8);}
  /*
 .sept{
   background-color: white;
 }  */
 .six>img{
+                    filter: drop-shadow(1px 1px 0px white);
+
   width: 800px;
   height: 700px;
   transform: scale(0.35);
@@ -939,11 +963,14 @@ transform: scale(0.8);}
 }
 .cinq{
   background-color: white;
+} */
+.quatre>img{
+                  filter: drop-shadow(1px 1px 0px white);
 }
-.quatre{
-  background-color: white;
-}
-  */
+  
+
+
+
 .trois>img{
   width: 800px;
   height: 700px;
@@ -953,10 +980,7 @@ transform: scale(0.8);}
 }
 
 
-img{
-  border-radius: 20px;
-  filter: drop-shadow(2px 2px 1px white);
-}
+
 
 /*
 .trois{
@@ -989,6 +1013,7 @@ top: -240px;
 }
 */
 .neuf>img{
+
   width: 550px;
   height: 200px;
   left: -150px;
@@ -1036,12 +1061,18 @@ left: -280px;
       }
 
       .trante-cinq>img{
-        height: 1150px;
-        width: 1050px;
-        left: -407px;
+                          filter: drop-shadow(1px 1px 0px white);
+
+        height: 350px;
+        width: 970px;
+        left: -265px;
         
-        transform: scale(0.2);
-        top: -405px;
+        transform: scale(0.4);
+        top: -35px;
+      }
+
+      .trante-cinq{
+        width: 500px;
       }
 
       .trante-neuf>img{
@@ -1059,11 +1090,13 @@ left: -280px;
         width: 850px;
         left: -315px;
         
-        transform: scale(0.35);
+        transform: scale(0.4);
         top: 15px;
       }
 
       .trante-trois>img{
+                          filter: drop-shadow(1px 1px 0px white);
+
         transform: scale(0.8);
       }
       /*
