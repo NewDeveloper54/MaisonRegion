@@ -5,40 +5,48 @@ import {Link} from "react-router-dom";
 
 
 import "./Main.css";
+
+import tennisG from "../assets/tennisG.png";
 import mp44 from "../assets/mp44.png";
 import GES from "../assets/GES.svg";
 import stockk from "../assets/stock.jpg";
 import running from "../assets/running.jpg";
-import aviron from "../assets/aviron.jpg";
-import badminton from "../assets/badminton.jpg";
-import basket from "../assets/basket.jpg";
-import kayak from "../assets/kayak.jpg";
+import aviron from "../assets/avironBG.png";
+import badminton from "../assets/badmintonBG.png";
+import basket from "../assets/basketBG.png";
+import kayak from "../assets/kayakBG.png";
 import orientation from "../assets/orientation.jpg";
 import cress from "../assets/cress.png";
-import cros from "../assets/cros.png"
-import cyclisme from "../assets/cyclisme.jpg";
-import equitation from "../assets/equitation.jpg";
+import cros from "../assets/cros.png";
+import cyclisme from "../assets/cyclismeBG.png";
+import equitation from "../assets/equitationBG.png";
 import epgv from "../assets/epgv.png";
-import escrime2 from "../assets/escrime2.jpg";
+import escrime2 from "../assets/escrimeBG.png";
 import fnmnsBG from "../assets/fnmnsBG.png";
-import golf from "../assets/golf.jpg";
+import golf from "../assets/golfG.png";
 import gymnastique from "../assets/gymnastique.jpg";
-import handball from "../assets/handball.jpg";
+import handball from "../assets/handballBG.png";
+import handballGBG from "../assets/handballGBG.webp";
+import courseBG from "../assets/courseBG.png";
+
 import handiSport from "../assets/handiSport.png";
-import judo from "../assets/judo.jpg";
+import judo from "../assets/judoMBG.png";
+import judoG from "../assets/judoG.png";
+import athlete from "../assets/athleteBG.png";
+
 import mouvementBG from "../assets/mouvementBG-removebg-preview.png";
-import motocyclisme from "../assets/moto.jpg";
+import motocyclisme from "../assets/motocyclisme.png";
 import natation from "../assets/nage.jpg";
 import paralympique from "../assets/newlogo.svg";
 import petanque from "../assets/boule.jpg";
 import randBG from "../assets/randBG.png";
 import rand from "../assets/logoRandne.png";
-import rugby from "../assets/rugby.jpg";
+import rugbyBG from "../assets/rugbyBG.png";
 import grottes from "../assets/grottes.png";
 import adapteBG from "../assets/adapteBG.png";
 import automobiles from "../assets/automobiles.png";
 import tous from "../assets/tous.svg";
-import taekwondo from "../assets/taekwondo.png";
+import taekwondoBG from "../assets/taekwondoBG.png";
 import tennis from "../assets/tennis.jpg";
 import TB from "../assets/TB.png";
 import triathlon from "../assets/triathlon.png";
@@ -46,7 +54,12 @@ import unss from "../assets/unss.png";
 import volleyBall from "../assets/volleyBall.png";
 import ugsel from "../assets/ugselBG.png";
 import asptt from "../assets/asptt.jpeg";
-
+import petanqueBG from "../assets/petanqueBG.png";
+import natationG from "../assets/natationG.png";
+import gym from "../assets/gym.png";
+import epgvBG from "../assets/epgvBG.png";
+import escrimeGBG from "../assets/escrimeGBG.png";
+import aspttG from "../assets/aspttG.webp";
 
 const Main = () => {
   const [animationDone, setAnimationDone] = useState(false);
@@ -65,44 +78,44 @@ const Main = () => {
 
     const cardTab = [
       { title: "REGION GRAND EST", link: "/Info/0", imgSrc: GES, linkClass: `hidden ${show2 ? "show2" : ""}`, divClass: "card un", h1Class: "angled-shadow" },
-      { title: "ASPTT COMITE REGIONAL GRAND EST", link: "/Info/1", imgSrc: asptt, linkClass: `hidden ${show2 ? "show2" : ""}`, divClass: "card deux", h1Class: "angled-shadow" },
-      { title: "ATHLETISME LIGUE REGIONALE GRAND EST", link: "/Info/2", imgSrc: running, linkClass: `hidden ${show2 ? "show2" : ""}`, divClass: "card trois", h1Class: "angled-shadow" },
+      { title: "ASPTT COMITE REGIONAL GRAND EST", link: "/Info/1", imgSrc: aspttG, linkClass: `hidden ${show2 ? "show2" : ""}`, divClass: "card deux", h1Class: "angled-shadow" },
+      { title: "ATHLETISME LIGUE REGIONALE GRAND EST", link: "/Info/2", imgSrc: athlete, linkClass: `hidden ${show2 ? "show2" : ""}`, divClass: "card trois", h1Class: "angled-shadow" },
       { title: "AVIRON LIGUE REGIONALE GRAND EST", link: "/Info/3", imgSrc: aviron, linkClass: `hidden ${show2 ? "show2" : ""}`, divClass: "card quatre", h1Class: "angled-shadow" },
       { title: "BADMINTON LIGUE REGIONALE GRAND EST", link: "/Info/4", imgSrc: badminton, linkClass: `hidden ${show2 ? "show2" : ""}`, divClass: "card cinq", h1Class: "angled-shadow" },
       { title: "BASKET LIGUE REGIONALE GRAND EST", link: "/Info/5", imgSrc: basket, linkClass: `hidden ${show2 ? "show2" : ""}`, divClass: "card six", h1Class: "angled-shadow" },
       { title: "CANOE KAYAK COMITE REGIONAL GRAND EST", link: "/Info/6", imgSrc: kayak, linkClass: `hidden ${show2 ? "show2" : ""}`, divClass: "card sept", h1Class: "angled-shadow" },
-      { title: "COURSE D'ORIENTATION LIGUE REGIONALE GRAND EST", link: "/Info/7", imgSrc: orientation, linkClass: `hidden ${show2 ? "show2" : ""}`, divClass: "card huit", h1Class: "angled-shadow" },
+      { title: "COURSE D'ORIENTATION LIGUE REGIONALE GRAND EST", link: "/Info/7", imgSrc: courseBG, linkClass: `hidden ${show2 ? "show2" : ""}`, divClass: "card huit", h1Class: "angled-shadow" },
       { title: "CRESS GRAND EST", link: "/Info/8", imgSrc: cress, linkClass: `hidden ${show2 ? "show2" : ""}`, divClass: "card neuf", h1Class: "angled-shadow" },
       { title: "CROS GRAND EST", link: "/Info/9", imgSrc: cros, linkClass: `hidden ${show2 ? "show2" : ""}`, divClass: "card dix", h1Class: "angled-shadow" },
       { title: "CYCLISME COMITE REGIONAL GRAND EST", link: "/Info/10", imgSrc: cyclisme, linkClass: `hidden ${show2 ? "show2" : ""}`, divClass: "card onze", h1Class: "angled-shadow" },
       { title: "EQUITATION COMITE REGIONAL GRAND EST", link: "/Info/11", imgSrc: equitation, linkClass: `hidden ${show2 ? "show2" : ""}`, divClass: "card douze", h1Class: "angled-shadow" },
       { title: "EPGV COMITE REGIONAL GRAND EST", link: "/Info/12", imgSrc: epgv, linkClass: `hidden ${show2 ? "show2" : ""}`, divClass: "card treize", h1Class: "angled-shadow" },
-      { title: "EPGV COMITE DEPARTEMENTAL MEURTHE ET MOSELLE", link: "/Info/13", imgSrc: epgv, linkClass: `hidden ${show2 ? "show2" : ""}`, divClass: "card quatorze", h1Class: "angled-shadow" },
-      { title: "ESCRIME LIGUE REGIONALE GRAND EST", link: "/Info/14", imgSrc: escrime2, linkClass: `hidden ${show2 ? "show2" : ""}`, divClass: "card quinze", h1Class: "angled-shadow" },
+      { title: "EPGV COMITE DEPARTEMENTAL MEURTHE ET MOSELLE", link: "/Info/13", imgSrc: epgvBG, linkClass: `hidden ${show2 ? "show2" : ""}`, divClass: "card quatorze", h1Class: "angled-shadow" },
+      { title: "ESCRIME LIGUE REGIONALE GRAND EST", link: "/Info/14", imgSrc: escrimeGBG, linkClass: `hidden ${show2 ? "show2" : ""}`, divClass: "card quinze", h1Class: "angled-shadow" },
       { title: "FNMNS", link: "/Info/15", imgSrc: fnmnsBG, linkClass: `hidden ${show2 ? "show2" : ""}`, divClass: "card seize", h1Class: "angled-shadow" },
       { title: "FNMNS CNF", link: "/Info/16", imgSrc: fnmnsBG, linkClass: `hidden ${show2 ? "show2" : ""}`, divClass: "card dix-sept", h1Class: "angled-shadow" },
       { title: "GOLF LIGUE REGIONALE GRAND EST", link: "/Info/17", imgSrc: golf, linkClass: `hidden ${show2 ? "show2" : ""}`, divClass: "card dix-huit", h1Class: "angled-shadow" },
-      { title: "GYMNASTIQUE COMITE REGIONAL GRAND EST", link: "/Info/18", imgSrc: gymnastique, linkClass: `hidden ${show2 ? "show2" : ""}`, divClass: "card dix-neuf", h1Class: "angled-shadow" },
-      { title: "HANDBALL LIGUE REGIONALE GRAND EST", link: "/Info/19", imgSrc: handball, linkClass: `hidden ${show2 ? "show2" : ""}`, divClass: "card vingt", h1Class: "angled-shadow" },
+      { title: "GYMNASTIQUE COMITE REGIONAL GRAND EST", link: "/Info/18", imgSrc: gym, linkClass: `hidden ${show2 ? "show2" : ""}`, divClass: "card dix-neuf", h1Class: "angled-shadow" },
+      { title: "HANDBALL LIGUE REGIONALE GRAND EST", link: "/Info/19", imgSrc: handballGBG, linkClass: `hidden ${show2 ? "show2" : ""}`, divClass: "card vingt", h1Class: "angled-shadow" },
       { title: "HANDBALL COMITE DEPARTEMENTAL MEURTHE ET MOSELLE", link: "/Info/20", imgSrc: handball, linkClass: `hidden ${show2 ? "show2" : ""}`, divClass: "card vingt-un", h1Class: "angled-shadow" },
       { title: "HANDISPORT COMITE REGIONAL GRAND EST", link: "/Info/21", imgSrc: handiSport, linkClass: `hidden ${show2 ? "show2" : ""}`, divClass: "card vingt-deux", h1Class: "angled-shadow" },
       { title: "HANDISPORT COMITE DEPARTEMENTAL MEURTHE ET MOSELLE", link: "/Info/22", imgSrc: handiSport, linkClass: `hidden ${show2 ? "show2" : ""}`, divClass: "card vingt-trois", h1Class: "angled-shadow" },
-      { title: "JUDO LIGUE REGIONALE GRAND EST", link: "/Info/23", imgSrc: judo, linkClass: `hidden ${show2 ? "show2" : ""}`, divClass: "card vingt-quatre", h1Class: "angled-shadow" },
+      { title: "JUDO LIGUE REGIONALE GRAND EST", link: "/Info/23", imgSrc: judoG, linkClass: `hidden ${show2 ? "show2" : ""}`, divClass: "card vingt-quatre", h1Class: "angled-shadow" },
       { title: "JUDO COMITE DEPARTEMENTAL MEURTHE ET MOSELLE", link: "/Info/24", imgSrc: judo, linkClass: `hidden ${show2 ? "show2" : ""}`, divClass: "card vingt-cinq", h1Class: "angled-shadow" },
       { title: "LORRAINE MOUVEMENT ASSOCIATIF", link: "/Info/25", imgSrc: mouvementBG, linkClass: `hidden ${show2 ? "show2" : ""}`, divClass: "card vingt-six", h1Class: "angled-shadow" },
       { title: "MOTOCYCLISME LIGUE REGIONALE GRAND EST", link: "/Info/26", imgSrc: motocyclisme, linkClass: `hidden ${show2 ? "show2" : ""}`, divClass: "card vingt-sept", h1Class: "angled-shadow" },
-      { title: "NATATION LIGUE REGIONALE GRAND EST", link: "/Info/27", imgSrc: natation, linkClass: `hidden ${show2 ? "show2" : ""}`, divClass: "card vingt-huit", h1Class: "angled-shadow" },
+      { title: "NATATION LIGUE REGIONALE GRAND EST", link: "/Info/27", imgSrc: natationG, linkClass: `hidden ${show2 ? "show2" : ""}`, divClass: "card vingt-huit", h1Class: "angled-shadow" },
       { title: "COMITE PARALYMPIQUE ET SPORTIF Français", link: "/Info/28", imgSrc: paralympique, linkClass: `hidden ${show2 ? "show2" : ""}`, divClass: "card vingt-neuf", h1Class: "angled-shadow" },
-      { title: "PETANQUE COMITE DEPARTEMENTAL MEURTHE ET MOSELLE", link: "/Info/29", imgSrc: petanque, linkClass: `hidden ${show2 ? "show2" : ""}`, divClass: "card trante", h1Class: "angled-shadow" },
+      { title: "PETANQUE COMITE DEPARTEMENTAL MEURTHE ET MOSELLE", link: "/Info/29", imgSrc: petanqueBG, linkClass: `hidden ${show2 ? "show2" : ""}`, divClass: "card trante", h1Class: "angled-shadow" },
       { title: "RANDONNEE PEDESTRE COMITE REGIONAL GRAND EST", link: "/Info/30", imgSrc: rand, linkClass: `hidden ${show2 ? "show2" : ""}`, divClass: "card trante-un", h1Class: "angled-shadow" },
       { title: "RANDONNEE PEDESTRE COMITE DEPARTEMENTAL MEURTHE ET MOSELLE", link: "/Info/31", imgSrc: randBG, linkClass: `hidden ${show2 ? "show2" : ""}`, divClass: "card trante-deux", h1Class: "angled-shadow" },
-      { title: "RUGBY LIGUE REGIONALE GRAND EST", link: "/Info/32", imgSrc: rugby, linkClass: `hidden ${show2 ? "show2" : ""}`, divClass: "card trante-trois", h1Class: "angled-shadow" },
+      { title: "RUGBY LIGUE REGIONALE GRAND EST", link: "/Info/32", imgSrc: rugbyBG, linkClass: `hidden ${show2 ? "show2" : ""}`, divClass: "card trante-trois", h1Class: "angled-shadow" },
       { title: "SPELEOLOGIE LIGUE REGIONALE GRAND EST", link: "/Info/33", imgSrc: grottes, linkClass: `hidden ${show2 ? "show2" : ""}`, divClass: "card trante-quatre", h1Class: "angled-shadow" },
       { title: "SPORT ADAPTE LIGUE REGIONALE GRAND EST", link: "/Info/34", imgSrc: adapteBG, linkClass: `hidden ${show2 ? "show2" : ""}`, divClass: "card trante-cinq", h1Class: "angled-shadow" },
       { title: "SPORT AUTOMOBILE LIGUE REGIONALE GRAND EST", link: "/Info/35", imgSrc: automobiles, linkClass: `hidden ${show2 ? "show2" : ""}`, divClass: "card trante-six", h1Class: "angled-shadow" },
       { title: "SPORT POUR TOUS COMITE REGIONAL GRAND EST", link: "/Info/36", imgSrc: tous, linkClass: `hidden ${show2 ? "show2" : ""}`, divClass: "card trante-sept", h1Class: "angled-shadow" },
-      { title: "TAEKWONDO LIGUE REGIONALE GRAND EST", link: "/Info/37", imgSrc: taekwondo, linkClass: `hidden ${show2 ? "show2" : ""}`, divClass: "card trante-huit", h1Class: "angled-shadow" },
-      { title: "TENNIS LIGUE REGIONALE GRAND EST", link: "/Info/38", imgSrc: tennis, linkClass: `hidden ${show2 ? "show2" : ""}`, divClass: "card trante-neuf", h1Class: "angled-shadow" },
+      { title: "TAEKWONDO LIGUE REGIONALE GRAND EST", link: "/Info/37", imgSrc: taekwondoBG, linkClass: `hidden ${show2 ? "show2" : ""}`, divClass: "card trante-huit", h1Class: "angled-shadow" },
+      { title: "TENNIS LIGUE REGIONALE GRAND EST", link: "/Info/38", imgSrc: tennisG, linkClass: `hidden ${show2 ? "show2" : ""}`, divClass: "card trante-neuf", h1Class: "angled-shadow" },
       { title: "TENNIS DE TABLE LIGUE REGIONALE GRAND EST", link: "/Info/39", imgSrc: TB, linkClass: `hidden ${show2 ? "show2" : ""}`, divClass: "card quarante", h1Class: "angled-shadow" },
       { title: "TRIATHLON LIGUE REGIONALE GRAND EST", link: "/Info/40", imgSrc: triathlon, linkClass: `hidden ${show2 ? "show2" : ""}`, divClass: "card quarante-un", h1Class: "angled-shadow" },
       { title: "UNSS", link: "/Info/41", imgSrc: unss, linkClass: `hidden ${show2 ? "show2" : ""}`, divClass: "card quarante-deux", h1Class: "angled-shadow" },
@@ -244,7 +257,7 @@ const Main = () => {
   <Link className={item.linkClass} key={item.title}  to={item.link}>
     <div className={item.divClass}>
       <img src={item.imgSrc} alt="nothing yet" />
-      <h1 className={item.h1Class}>{item.title}</h1>
+       {/* <h1 className={item.h1Class}>{item.title}</h1> */}  
     </div>
   </Link>
 ))}

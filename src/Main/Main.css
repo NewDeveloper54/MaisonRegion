@@ -710,13 +710,16 @@ a{
       left: -20px;
       z-index: 0; 
     }
+
+    
+    
     
     .card {
       cursor: pointer;
     border-radius: 25px;
         height: 350px;
         width: 280px;
-        background-color: black;
+        background-color: transparent;
         
         filter: drop-shadow(0 13px 5px rgba(0, 0, 0, 0.3));
         opacity: 1;
@@ -725,7 +728,7 @@ a{
     
         animation: show 1s ;
       }
-    
+ /*   
       .card::after {
         content: "";
         position: absolute;
@@ -738,7 +741,7 @@ a{
         pointer-events: none; 
       }
 
-
+*/
 
 
 
@@ -777,14 +780,219 @@ a{
         left: -60px;
       }
 
-      .trante-sept>img{
-        height: 230px;
-        width: 350px;
-        left: -57px;
+      .trante-deux>img{
+        height: 300px;
+        width: 850px;
+        left: -307px;
         
-        transform: scale(0.7);
-        top: 55px;
+        transform: scale(0.3);
+        top: 15px;
       }
+
+      .trante-un>img{
+        height: 550px;
+        width: 1850px;
+        left: -807px;
+        
+        transform: scale(0.145);
+        top: -105px;
+      }
+
+      .trante>img{
+        
+        height: 750px;
+        width: 850px;
+        left: -307px;
+        
+        transform: scale(0.3);
+        top: -225px;
+      }
+      /*
+      .trante{
+        background-color: white;
+      }  */
+
+      .vingt-neuf>img{
+        
+        transform: scale(0.35);
+        width: 650px;
+        height: 750px;
+        left: -200px;
+        top: -220px;
+      }
+
+      .vingt-sept>img{
+        width: 500px;
+        height: 155px;
+        left: -135px;
+        top: 100px;
+        transform: scale(0.4);
+      }
+
+      .vingt-quatre>img{
+        width: 500px;
+        height: 255px;
+        left: -125px;
+        top: 25px;
+        transform: scale(0.5);
+      }
+      
+/*
+       .vingt-quatre{
+        background-color: white;
+        
+      }  */
+
+      .vingt-un>img{
+        height: 950px;
+        width: 950px;
+        transform: scale(0.2);
+        top: -310px;
+        left: -350px;
+      }
+
+
+      .vingt>img{
+        height: 500px;
+        width: 1400px;
+        transform: scale(0.18);
+        top: -100px;
+        left: -580px;
+      }
+
+      .dix-neuf>img{
+        transform: scale(0.7);
+      }
+/*
+       .dix-neuf{
+background-color: #021F5A;      
+}  
+
+.dix-huit{
+  background-color: white;
+} */
+
+.dix-sept>img{
+width: 800px;
+left: -280px;
+transform: scale(0.33);
+}
+
+
+.dix-six>img{
+width: 800px;
+left: -280px;
+transform: scale(0.33);
+}
+/*
+.quinze{
+  background-color: white;
+}   */
+
+.quinze>img{
+  width: 860px;
+  height: 800px;
+  transform: scale(0.3);
+  top: -250px;
+  left: -305px;
+}
+/*
+.douze{
+  background-color: white;
+}  */
+.douze>img{
+transform: scale(0.8);}
+ /*
+.sept{
+  background-color: white;
+}  */
+.six>img{
+  width: 800px;
+  height: 700px;
+  transform: scale(0.35);
+  left: -280px;
+  top: -200px;
+}
+/*
+.six{
+  background-color: white;
+}
+.cinq{
+  background-color: white;
+}
+.quatre{
+  background-color: white;
+}
+  */
+.trois>img{
+  width: 800px;
+  height: 700px;
+  transform: scale(0.35);
+  left: -280px;
+  top: -165px;
+}
+
+
+
+
+/*
+.trois{
+  background-color: white;
+}
+  */
+
+.onze>img{
+  width: 800px;
+  height: 700px;
+transform: scale(0.35);
+left: -280px;
+top: -200px;
+}
+
+
+.dix>img{
+  
+transform: scale(0.5);
+height: 800px;
+width: 550px;
+transform: scale(0.3);
+left: -155px;
+top: -240px;
+
+}
+/*
+.neuf{
+  background-color: white;
+}
+*/
+.neuf>img{
+  width: 550px;
+  height: 200px;
+  left: -150px;
+  top: 50px;
+
+transform: scale(0.4);}
+
+.huit>img{
+  width: 550px;
+  left: -150px;
+  transform: scale(0.4);
+}
+/*
+.huit{
+  background: white;
+}
+*/
+
+.seize>img{
+  width: 800px;
+left: -280px;
+  transform: scale(0.33);
+}
+
+
+
+      
 
 
       .trante-six>img{
@@ -795,6 +1003,41 @@ a{
         transform: scale(0.7);
         top: 15px;
       }
+
+      .trante-cinq>img{
+        height: 1150px;
+        width: 1050px;
+        left: -407px;
+        
+        transform: scale(0.2);
+        top: -405px;
+      }
+
+      .trante-neuf>img{
+        height: 300px;
+        width: 850px;
+        left: -302px;
+        
+        transform: scale(0.3);
+        top: 15px;
+      }
+
+
+      .trante-huit>img{
+        height: 300px;
+        width: 850px;
+        left: -315px;
+        
+        transform: scale(0.35);
+        top: 15px;
+      }
+
+      .trante-trois>img{
+        transform: scale(0.8);
+      }
+      /*
+      .trante-trois{
+background-color: white;      }  */
 
       .un>img{
         height: 300px;
@@ -810,8 +1053,9 @@ a{
         left: -325px;
         
         transform: scale(0.3);
-        top: -285px;
+        top: -205px;
       }
+      /*
       .deux{
         background-color: white;
-      }
+      }  */
