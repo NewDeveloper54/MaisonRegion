@@ -26,7 +26,12 @@
   100% { transform: scale(1); }
 }
   
+.right{
+filter: none;
+}
+
 .byMp44{
+  filter: none;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -38,6 +43,7 @@
     transition: opacity 1s ease-in-out, visibility 0s 1s;
 }
 .byMp44.show{
+  filter: none;
   opacity: 0; /* La section devient visible */
     visibility: visible; /* La rend visible après l'animation */
     transition: opacity 1s ease-in-out, visibility 0s;
@@ -320,6 +326,8 @@ a{
     filter: drop-shadow(0 13px 25px rgba(0, 0, 0, 0.3));
   }
 
+  
+
   .one>img{
     position: relative;
     top: 10px;
@@ -601,6 +609,7 @@ a{
   }
 
   .img2{
+    filter: none;
     position: absolute;
     left: -12%;
     top: 10%;
@@ -754,9 +763,11 @@ a{
 
       .quarante-trois>img{
         height: 300px;
-        transform: scale(0.8);
+        transform: scale(1.05);
         top: 0px;
       }
+
+      
 
       .quarante-deux>img{
         height: 120px;
@@ -828,6 +839,15 @@ a{
         top: 100px;
         transform: scale(0.4);
       }
+
+      .trante-sept>img{
+        transform: scale(0.3);
+        width: 950px;
+        height: 600px;
+        left: -355px;
+        top: -140px;
+      }
+       
 
       .vingt-quatre>img{
         width: 500px;
@@ -995,7 +1015,15 @@ left: -280px;
 
 
 
-      
+     
+
+       .trante-quatre>img{
+        transform: scale(0.5);
+        height: 460px;
+        width: 415px;
+        left: -80px;
+        top: -60px;
+      }
 
 
       .trante-six>img{

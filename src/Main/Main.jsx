@@ -51,7 +51,7 @@ import tennis from "../assets/tennis.jpg";
 import TB from "../assets/TB.png";
 import triathlon from "../assets/triathlon.png";
 import unss from "../assets/unss.png";
-import volleyBall from "../assets/volleyBall.png";
+import volleyBall from "../assets/volleyG.png";
 import ugsel from "../assets/ugselBG.png";
 import asptt from "../assets/asptt.jpeg";
 import petanqueBG from "../assets/petanqueBG.png";
@@ -206,7 +206,7 @@ const Main = () => {
               height="170"
               src={GES}
               alt="nothing yet"
-              className={animationDone ? "logoAnimate" : "logoHold"}
+              className={`right  ${animationDone ? "logoAnimate" : "logoHold"}`} 
             />
           </div>
 
