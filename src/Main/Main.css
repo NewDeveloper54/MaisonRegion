@@ -832,13 +832,25 @@ a{
 
       }
 
+      .vingt-deux, .vingt-trois>img{
+                          filter: drop-shadow(1px 1px 0px white);
+
+      }
+
       .vingt-neuf>img{
+                                  filter: drop-shadow(1px 1px 0px white);
+
         
         transform: scale(0.35);
         width: 650px;
         height: 750px;
         left: -200px;
         top: -220px;
+      }
+
+      .neuf>img{
+                                  filter: drop-shadow(1px 1px 0px white);
+
       }
 
       .vingt-sept>img{
@@ -875,6 +887,8 @@ a{
       }  */
 
       .vingt-un>img{
+                                  filter: drop-shadow(1px 1px 0px white);
+
         height: 950px;
         width: 950px;
         transform: scale(0.2);
@@ -944,10 +958,10 @@ transform: scale(0.33);
                     filter: drop-shadow(0px 1px 0px white);
 
 transform: scale(0.8);}
- /*
-.sept{
-  background-color: white;
-}  */
+ 
+.sept>img{
+                          filter: drop-shadow(1px 1px 0px white);
+}  
 .six>img{
                     filter: drop-shadow(1px 1px 0px white);
 
@@ -1022,6 +1036,8 @@ top: -240px;
 transform: scale(0.4);}
 
 .huit>img{
+                            filter: drop-shadow(2px 2px 0px white);
+
   width: 550px;
   left: -150px;
   transform: scale(0.4);
@@ -1043,6 +1059,8 @@ left: -280px;
      
 
        .trante-quatre>img{
+                                  filter: drop-shadow(1px 1px 0px white);
+
         transform: scale(0.5);
         height: 460px;
         width: 415px;
@@ -1086,6 +1104,8 @@ left: -280px;
 
 
       .trante-huit>img{
+                                  filter: drop-shadow(1px 1px 0px white);
+
         height: 300px;
         width: 850px;
         left: -315px;
@@ -1112,6 +1132,8 @@ background-color: white;      }  */
         top: 15px;
       }
       .deux>img{
+                                  filter: drop-shadow(1px 1px 0px white);
+
         height: 800px;
         width: 900px;
         left: -325px;
